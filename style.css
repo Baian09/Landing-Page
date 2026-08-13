@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+/* Cabeçalho */
+
+header {
+  background-color: #795280;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 5%;
+}
+
+.nome-marca {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.imagem-logo {
+  height: 45px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.botao-carrinho {
+  background-color: #262626;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 18px;
+  cursor: pointer;
+}
+
+/* Seção Principal */
+
+.principal {
+  padding: 60px 8%;
+}
+
+.principal h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.principal p {
+  color: #666666;
+}
+
+/* Seção Produtos */
+.titulo-secao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.secao-produtos {
+  background-color: #dcdcdc;
+  padding: 50px 5%;
+  text-align: center;
+}
+
+.secao-produtos h2 {
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+.foguinho{
+    
+    width: 150px;
+    height: auto;
+    
+
+}
+
+.grade-produtos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cartao-produto {
+  background-color: #c4c4c4;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+}
+
+.caixa-imagem-produto {
+  background-color: #ffffff;
+  border-radius: 15px;
+  height: 300px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.caixa-imagem-produto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.titulo-produto {
+  color: #4a2850;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.botao-adicionar {
+  background-color: #84558e;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Avaliações e Formulário */
+
+.secao-avaliacoes {
+  background-color: #795280;
+  color: #ffffff;
+  padding: 60px 8%;
+}
+
+.secao-avaliacoes h2 {
+  margin-bottom: 30px;
+}
+
+.grade-avaliacoes {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.cartao-avaliacao {
+  background-color: #ff9d9a;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1;
+  min-width: 250px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-autor {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.foto-autor {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.descricao-autor {
+  color: #666666;
+  font-size: 0.9rem;
+}
+
+.formulario-avaliacao {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.campo-texto {
+  flex: 1;
+  min-width: 250px;
+  height: 45px;
+  background-color: #eee3e3;
+  border: none;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+
+.botao-enviar {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 0 25px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.botao-limpar {
+  background-color: #dcdcdc;
+  color: #000000;
+  border: none;
+  border-radius: 6px;
+  padding: 0 25px;
+  height: 45px;
+  cursor: pointer;
+}
+
+/* Rodapé */
+
+footer {
+  background-color: #795280;
+  color: #ffffff;
+  border-top: 1px solid #1a1a1a;
+  padding: 40px 8% 20px;
+}
+
+.topo-rodape {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.links-redes {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.icone-rede {
+  width: 20px;
+  height: 20px;
+}
+
+.colunas-rodape {
+  display: flex;
+  gap: 40px;
+}
+
+.coluna-rodape h4 {
+  margin-bottom: 10px;
+}
+
+.coluna-rodape a {
+  display: block;
+  color: #a88aa8;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.direitos-autorais {
+  text-align: center;
+  font-size: 0.8rem;
+  padding-top: 20px;
+}
