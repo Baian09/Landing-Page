@@ -10,7 +10,7 @@ body {
   color: #1a1a1a;
 }
 
-/* Cabeçalho */
+
 
 header {
   background-color: #795280;
@@ -50,7 +50,7 @@ nav a {
   cursor: pointer;
 }
 
-/* Seção Principal */
+
 
 .principal {
   padding: 60px 8%;
@@ -65,7 +65,7 @@ nav a {
   color: #666666;
 }
 
-/* Seção Produtos */
+
 .titulo-secao {
   display: flex;
   align-items: center;
@@ -137,7 +137,6 @@ nav a {
   cursor: pointer;
 }
 
-/* Avaliações e Formulário */
 
 .secao-avaliacoes {
   background-color: #795280;
@@ -223,7 +222,6 @@ nav a {
   cursor: pointer;
 }
 
-/* Rodapé */
 
 footer {
   background-color: #795280;
